@@ -3,6 +3,28 @@
 **A three-layer security middleware for AI coding agents — smarter prompt-injection
 detection, a confirm-before-write gate, and one-click rollback.**
 
+
+## About the Project
+
+FileWall was developed as a 5-member team project for the TikTok TechJam 2026 Hackathon.
+The project focuses on protecting AI coding agents from prompt and content injection attacks by detecting malicious instructions hidden within files and prompts, while adding safeguards for reviewing and reverting file changes.
+
+This repository is a copy of our team’s project maintained on my personal GitHub profile for portfolio purposes.
+
+
+## My Contributions
+
+My primary contributions to the project included:
+
+- Contributed to the development of prompt-injection detection middleware combining fast static/pattern scanning with AI-based semantic analysis to detect malicious instructions hidden or disguised in files.
+
+- Worked with teammates on file-content analysis for hidden CSS text, multilingual instructions, emotional manipulation, and misleading credential claims to prevent prompt injection from influencing AI coding-agent actions.
+
+- Contributed to user authentication and the integration of prompt-injection protection into the agent workflow using TypeScript, Node.js, Supabase, and Docker.
+
+
+---
+
 Filewall sits between an AI coding agent and its model and filesystem. It closes a
 gap most agent platforms leave open: they'll let a model read a file, act on
 instructions hidden inside it, and write permanent changes to a workspace — all in
